@@ -19,7 +19,7 @@ Hardware – PCs, Cyclone II , USB flasher
 **Logic Diagram**
 Truth Table 1:
 
-![image](https://github.com/user-attachments/assets/1228309f-76c1-488e-9746-489a57acae06)
+![image](https://github.com/user-attachments/assets/c245e459-d415-42d0-9d11-eb12db224181)
 
 Truth Table 2:
 
