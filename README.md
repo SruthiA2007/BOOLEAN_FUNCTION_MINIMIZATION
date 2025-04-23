@@ -17,6 +17,13 @@ Hardware – PCs, Cyclone II , USB flasher
 **Theory**
 
 **Logic Diagram**
+Truth Table 1:
+
+![image](https://github.com/user-attachments/assets/1228309f-76c1-488e-9746-489a57acae06)
+
+Truth Table 2:
+
+![image](https://github.com/user-attachments/assets/1706abec-b946-4185-9b07-827ba0626e73)
 
 **Procedure**
 
@@ -35,14 +42,36 @@ Hardware – PCs, Cyclone II , USB flasher
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:*/
+Developed by: SRUTHI A
+
+RegisterNumber: 212224240162*/
+
+module funct1(a,b,c,d,f1);
+input a,b,c,d;
+output f1;
+assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
+endmodule
+
+module funct2(w,x,y,z,f2);
+input w,x,y,z;
+output f2;
+assign f2=((~y & z)|( w & y )|(x & y));
+endmodule
 
 
 **RTL realization**
 
 **Output:**
 
+![image](https://github.com/user-attachments/assets/6c49e64e-bc8a-42fa-aaf1-f0dc6935dde7)
+
+![image](https://github.com/user-attachments/assets/1dfb74a3-12ed-498c-b48b-38237d98224d)
+
 **RTL**
+
+![image](https://github.com/user-attachments/assets/4e3f6c5e-1afa-4319-a8a2-076380c989df)
+
+![image](https://github.com/user-attachments/assets/4795cf0f-f711-4167-824d-c98d0e12ee39)
 
 **Timing Diagram**
 
